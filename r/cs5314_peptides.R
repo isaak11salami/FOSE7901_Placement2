@@ -26,7 +26,7 @@ ggsurvplot(ifmod, data=treat, xlab="Days")
 peptides <- c("AmB","AmB+LF","AmB+LGF","AmB+LNL","AmB+LCL","LFG","LNL","LCL","LF","Tris Buffer")
 
 #Add in markings for each day (aided by Qwen AI)
-p <- ggsurvplot(ifmod, data = treat, xlab = "Days", legend.labs = peptides)
+p <- ggsurvplot(ifmod, data = treat, xlab = "Days", legend.labs = peptides, legend.title="Treatment Groups")
 p$plot <- p$plot +
   scale_x_continuous(breaks = 0:9,labels = 0:9)
 print(p)
