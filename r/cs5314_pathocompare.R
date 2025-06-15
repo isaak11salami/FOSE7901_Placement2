@@ -20,7 +20,7 @@ ggsurvplot(pcmod, data=patho, xlab="Days")
 treatments <- c("StockA,10^5","StockA,10^6","StockB,10^5","StockB,10^6","Trial1,10^5","Trial1,10^6")
 
 #Add in markings for each day (aided by Qwen AI)
-p <- ggsurvplot(pcmod, data = patho, xlab = "Days",legend.lab = treatments, legend.title="Treatment Groups")
+p <- ggsurvplot(pcmod, data = patho, xlab = "Days",legend.lab = treatments, legend.title="Inoculation Groups")
 p$plot <- p$plot +
   scale_x_continuous(breaks = 0:9,labels = 0:9)
 print(p)
