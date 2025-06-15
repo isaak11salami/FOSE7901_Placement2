@@ -1,0 +1,5 @@
+This dataset contains the survival data of the first pathogenicity assay (Trial1) along with a subset of data from the second pathogenicity assay. This dataset was prepared to compare the survival data of Trial1 against the StockB data from the second pathogenicity assay.
+
+Details pertaining to "subject_ID", "time" and "status" are described in the accompanying document, "raw_medata".
+
+For details of treatment group Trial1, see "cs5314_dose assay_metadata". For details of the StockB treatment groups, see "cs5314_stock assay_metadata". 

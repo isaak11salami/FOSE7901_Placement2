@@ -1,0 +1,6 @@
+This dataset contains the survival data of the second pathogenicity assay. Details pertaining to "subject_ID", "time" and "status" are described in the accompanying document, "raw_medata".
+
+In this assay, each Galleria mellonella larva was injected with either 10^5 CFU/larva or 10^6  CFU/larva of Candida albicans SC5314 (delivered as a suspension in PBS) or a sterile solution of PBS solution (negative control).The C. albicans SC5314 inoculum was prepared from cultures recovered from one of two glycerol stocks, StockA or StockB. 
+
+Each larva was injected with 10µL of the appropriate inoculum.
+ 

@@ -20,7 +20,7 @@ ggsurvplot(domod, data=dose, xlab="Days")
 dosage <- c("10^5","10^6")
 
 #Add in markings for each day (aided by Qwen AI)
-p <- ggsurvplot(domod, data = dose, xlab = "Days", legend.labs = dosage, legend.title="Inoculation Dosage (cells/larva)")
+p <- ggsurvplot(domod, data = dose, xlab = "Days", legend.labs = dosage, legend.title="Inoculation Dosage (CFU/larva)")
 p$plot <- p$plot +
   scale_x_continuous(breaks = 0:9,labels = 0:9)
 print(p)

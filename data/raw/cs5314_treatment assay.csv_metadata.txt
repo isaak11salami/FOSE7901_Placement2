@@ -1,0 +1,21 @@
+This dataset contains the survival data of the antifungal efficacy assay. Details pertaining to "subject_ID", "time" and "status" are described in the accompanying document, "raw_medata".
+
+In this assay, each Galleria mellonella larva was injected with a dose of 10^5 CFU/larva of Candida albicans SC5314. Each treatment group of larva received 10µL of either an antifungal treatment, or a negative control of 10mM Tris Buffer. 
+Compounds/peptides used in each treatment were:
+Amphotericin B (AmB)
+Lactoferrin (LF)
+Lactofungin (LFG)
+Lactofungin N-truncation, Linear (LNL)
+Lactofungin C-truncation, Linear (LNL)
+
+Concentrations of each treatment were as follows:
+AmB (124µg/mL)
+AmB (124µg/mL) + LF (1024µg/mL)
+AmB (124µg/mL) + LFG (4.16µg/mL)
+AmB (124µg/mL) + LNL (0.72µg/mL)
+AmB (124µg/mL) + LCL (0.96µg/mL)
+LF (1024µg/mL)
+LFG (4.16µg/mL)
+LNL (0.72µg/mL)
+LCL (0.96µg/mL)
+Tris Buffer (10mM) 

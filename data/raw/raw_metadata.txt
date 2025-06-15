@@ -1,0 +1,6 @@
+This folder contains the datasets used to conduct Log-Rank Tests and construct survival plots. Each dataset contains:
+- The larva subject ID
+- The time taken (measured in days) for the larvae to die. Larvae that didn't die during the observation period are noted as having a "time" measurement of 9.
+- The status of each larva, where 1 indicates a death and 0 indicates a censored observation (the larvae was still alive at the completion of the observation period)
+- The treatment group assigned for each larva. More detailed information on the nature of treatment groups is outlined in the accompanying metadata file for each dataset.
+
